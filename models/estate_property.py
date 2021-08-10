@@ -16,7 +16,6 @@ class Property(models.Model):
                         "quantity": 1,
                         "price_unit": self.selling_price,
                         'account_id': 1,
-                        'tax_ids': 0,
                     },
                 )
             ],})
